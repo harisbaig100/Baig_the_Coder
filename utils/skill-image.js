@@ -14,7 +14,6 @@ import materialui from '../app/assets/svg/skills/materialui.svg';
 import chakraui from '../app/assets/svg/skills/chakraui.svg';
 import reactNavigation from '../app/assets/svg/skills/react-navigation.svg';
 import reactSpring from '../app/assets/svg/skills/react-spring.svg';
-import reactReanimated from '../app/assets/svg/skills/react-reanimated.svg';
 import graphql from '../app/assets/svg/skills/graphql.svg';
 import restApis from '../app/assets/svg/skills/rest-apis.svg';
 import firebase from '../app/assets/svg/skills/firebase.svg';
@@ -28,7 +27,6 @@ import androidStudio from '../app/assets/svg/skills/android-studio.svg';
 import fastlane from '../app/assets/svg/skills/fastlane.svg';
 import nativeModules from '../app/assets/svg/skills/native-modules.svg';
 import git from '../app/assets/svg/skills/git.svg';
-import cicd from '../app/assets/svg/skills/cicd.svg';
 import docker from '../app/assets/svg/skills/docker.svg';
 import mongoDB from '../app/assets/svg/skills/mongodb.svg';
 import postgresql from '../app/assets/svg/skills/postgresql.svg';
@@ -63,7 +61,7 @@ export const skillsImage = (skill) => {
         // Navigation & Animations
         case 'reactnavigation': return reactNavigation;
         case 'reactspring': return reactSpring;
-        case 'reactnativereanimated': return reactReanimated;
+        case 'reactnativereanimated': return reactNative;
 
         // Backend & API Integration
         case 'graphql': return graphql;
@@ -85,7 +83,6 @@ export const skillsImage = (skill) => {
 
         // Deployment & Collaboration
         case 'git': return git;
-        case 'cicd': return git;
         case 'docker': return docker;
 
         // Database & Storage

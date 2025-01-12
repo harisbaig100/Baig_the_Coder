@@ -43,7 +43,6 @@ export const skillsData = [
 
   // Deployment & Collaboration
   'Git',
-  'CI/CD',
   'Docker',
 
   // Database & Storage

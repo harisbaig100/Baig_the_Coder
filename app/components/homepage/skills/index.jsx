@@ -26,7 +26,7 @@ function Skills() {
         </div>
       </div>
 
-      <div className="w-full my-12">
+      <div className="w-full my-4">
         <Marquee
           gradient={false}
           speed={150}
@@ -45,7 +45,7 @@ function Skills() {
                     <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent" />
                   </div>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-3 p-6">
+                <div className="flex flex-col items-center justify-center gap-3 p-2">
                   <div className="h-8 sm:h-10">
                     <Image
                       src={skillsImage(skill)?.src || null}
@@ -55,7 +55,7 @@ function Skills() {
                       className="h-full w-auto rounded-lg"
                     />
                   </div>
-                  <p className="text-white text-sm sm:text-lg">
+                  <p className="text-white text-sm sm:text-lg text-center">
                     {skill}
                   </p>
                 </div>
