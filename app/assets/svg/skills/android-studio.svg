@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#3DDC84"/>
+    
+    <!-- Android Studio Icon -->
+    <g transform="translate(128 128)">
+        <!-- Outer Circle -->
+        <circle cx="0" cy="0" r="80" fill="none" stroke="#000" stroke-width="12"/>
+        
+        <!-- Compass Design -->
+        <line x1="-60" y1="0" x2="60" y2="0" stroke="#000" stroke-width="12"/>
+        <line x1="0" y1="-60" x2="0" y2="60" stroke="#000" stroke-width="12"/>
+        
+        <!-- Android Studio Tool Representation -->
+        <path d="M-30 -30 L0 -60 L30 -30 L0 0 Z" fill="#000"/>
+    </g>
+</svg>

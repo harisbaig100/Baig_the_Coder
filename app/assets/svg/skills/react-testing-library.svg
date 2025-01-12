@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#E23237"/>
+
+    <!-- Testing Icon (Flame Design) -->
+    <g transform="translate(128 128)">
+        <path d="M-30 50 L0 -80 L30 50 Z" fill="#FFF"/>
+        <circle cx="0" cy="30" r="20" fill="#E23237"/>
+    </g>
+</svg>

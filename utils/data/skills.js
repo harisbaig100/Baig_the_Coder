@@ -1,109 +1,58 @@
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'Javascript',
-  'Typescript',
+  // Core Technologies
+  'React Native',
   'React',
-  'Next JS',
-  'Tailwind',
-  'MongoDB',
-  'MySQL',
-  'PostgreSQL',
-  'Git',
-  'AWS',
-  'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
+  'Expo',
+  'JavaScript',
+  'TypeScript',
+
+  // State Management
+  'Redux Toolkit',
+  'Context API',
+  'Zustand',
+  'React Query',
+
+  // UI & Styling
+  'Styled Components',
+  'Tailwind CSS',
+  'Material UI',
+  'Chakra UI',
+
+  // Navigation & Animations
+  'React Navigation',
+  'React Spring',
+  'React Native Reanimated',
+
+  // Backend & API Integration
+  'GraphQL',
+  'RESTful APIs',
   'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
-]
+  'AWS Amplify',
 
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
+  // Testing & Code Quality
+  'Jest',
+  'React Testing Library',
+  'ESLint',
+  'Prettier',
 
+  // Mobile Development Tools
+  'Xcode',
+  'Android Studio',
+  'Fastlane',
+  'Native Modules',
 
-// AVAILABLE SKILLS
+  // Deployment & Collaboration
+  'Git',
+  'CI/CD',
+  'Docker',
 
-/* 
-  HTML
-  CSS
-  JS 
-  React
-  Next JS
-  Nuxt JS
-  Node JS
-  Vue
-  Angular
-  Docker
-  Photoshop
-  Illustrator
-  Svelte
-  GCP
-  Azure
-  Fastify
-  Haxe
-  Ionic
-  Markdown
-  Microsoft Office
-  Picsart
-  Sketch
-  Unity
-  WolframAlpha
-  Adobe XD
-  After Effects
-  Bootstrap
-  Bulma
-  CapacitorJs
-  Coffeescript
-  MemSQL
-  C
-  C++
-  C#
-  Python
-  Java
-  Julia
-  Matlab
-  Swift
-  Ruby
-  Kotlin
-  Go
-  PHP
-  Flutter
-  Dart
-  Typescript
-  Swift
-  Git
-  Figma
-  Canva
-  Ubuntu
-  Bootstrap
-  MongoDB
-  Tailwind
-  ViteJS
-  VuetifyJS
-  MySQL
-  PostgreSQL
-  AWS
-  Firebase
-  Blender
-  Premiere Pro
-  Adobe Audition
-  Deno
-  Django
-  Gimp
-  Graphql
-  Lightroom
-  MaterialUI
-  Nginx
-  Numpy
-  OpenCV
-  Pytorch
-  Selenium
-  Strapi
-  Tensorflow
-  Webex
-  Wordpress
-*/
+  // Database & Storage
+  'MongoDB',
+  'PostgreSQL',
+  'SQLite',
+  'Async Storage',
+
+  // Design & Collaboration Tools
+  'Figma',
+  'Storybook'
+];

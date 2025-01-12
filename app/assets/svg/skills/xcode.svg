@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#1575F9"/>
+    
+    <!-- Xcode Hammer Icon -->
+    <g transform="translate(128 128)">
+        <!-- Hammer Handle -->
+        <rect x="-10" y="-60" width="20" height="120" fill="#FFF"/>
+        
+        <!-- Hammer Head -->
+        <rect x="-40" y="-10" width="80" height="20" fill="#FFF"/>
+        
+        <!-- Wrench Element -->
+        <circle cx="0" cy="60" r="20" fill="none" stroke="#FFF" stroke-width="12"/>
+    </g>
+</svg>

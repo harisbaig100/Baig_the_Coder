@@ -29,7 +29,7 @@ function Skills() {
       <div className="w-full my-12">
         <Marquee
           gradient={false}
-          speed={80}
+          speed={150}
           pauseOnHover={true}
           pauseOnClick={true}
           delay={0}
@@ -48,7 +48,7 @@ function Skills() {
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
                   <div className="h-8 sm:h-10">
                     <Image
-                      src={skillsImage(skill)?.src}
+                      src={skillsImage(skill)?.src || null}
                       alt={skill}
                       width={40}
                       height={40}

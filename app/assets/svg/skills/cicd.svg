@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#4A90E2"/>
+    
+    <!-- CI/CD Circular Arrows -->
+    <g transform="translate(128 128)">
+        <!-- Top Arrow -->
+        <path d="M-60 -10 L-40 -30 L-20 -10" fill="none" stroke="#FFF" stroke-width="12"/>
+        
+        <!-- Bottom Arrow -->
+        <path d="M20 10 L40 30 L60 10" fill="none" stroke="#FFF" stroke-width="12"/>
+        
+        <!-- Circular Flow -->
+        <path d="M-60 10 A60 60 0 1 1 60 10" fill="none" stroke="#FFF" stroke-width="12"/>
+        
+        <!-- Central Circle -->
+        <circle cx="0" cy="0" r="20" fill="#FFF"/>
+    </g>
+</svg>

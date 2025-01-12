@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#000"/>
+
+    <!-- Bear Face (Symbolizing Zustand) -->
+    <g transform="translate(128 128)">
+        <!-- Ears -->
+        <circle cx="-60" cy="-50" r="20" fill="#fff"/>
+        <circle cx="60" cy="-50" r="20" fill="#fff"/>
+        
+        <!-- Face -->
+        <circle cx="0" cy="0" r="70" fill="#fff"/>
+        
+        <!-- Eyes -->
+        <circle cx="-25" cy="-20" r="10" fill="#000"/>
+        <circle cx="25" cy="-20" r="10" fill="#000"/>
+        
+        <!-- Nose -->
+        <circle cx="0" cy="10" r="10" fill="#000"/>
+    </g>
+
+</svg>
