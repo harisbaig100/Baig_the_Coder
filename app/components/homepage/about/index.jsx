@@ -155,7 +155,7 @@ function AboutSection() {
             <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
             <span className="mr-2 text-white">debuggingSkills</span>
             <span className="mr-2 text-amber-300">===</span>
-            <span className="text-amber-300">'Expert' </span>
+            <span className="text-amber-300">`Expert`</span>
             <span className="text-amber-300">&amp;&amp;</span>
           </div>
 
@@ -163,7 +163,7 @@ function AboutSection() {
             <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
             <span className="mr-2 text-white">canFixProductionAt</span>
             <span className="mr-2 text-amber-300">===</span>
-            <span className="text-amber-300">'3 AM'</span>
+            <span className="text-amber-300">`3 AM`</span>
           </div>
           
           <div>
