@@ -1,7 +1,8 @@
 // @flow strict
 import Link from 'next/link';
-import { FaArrowRight } from 'react-icons/fa';
 import BlogCard from './blog-card';
+import { personalData } from "@/utils/data/personal-data";
+import { FaMedium, FaDev } from "react-icons/fa";
 
 function Blog({ blogs }) {
 
@@ -34,14 +35,22 @@ function Blog({ blogs }) {
         }
       </div>
 
-      <div className="flex justify-center  mt-5 lg:mt-12">
+      <div className="flex justify-center  mt-5 lg:mt-12 gap-5">
         <Link
           className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
           role="button"
-          href="/blog"
+          href={personalData.medium}
         >
-          <span>View More</span>
-          <FaArrowRight size={16} />
+          <span>View More on Medium</span>
+          <FaMedium size={30} />
+        </Link>
+        <Link
+          className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+          role="button"
+          href={personalData.dev}
+        >
+          <span>View More on DEV</span>
+          <FaDev size={30} />
         </Link>
       </div>
     </div>

@@ -52,17 +52,17 @@ function Projects() {
                   </div>
 
                   {/* Mobile Frame */}
-                  <div className="relative w-[320px] h-[660px] bg-black rounded-[60px] border-2 border-white overflow-hidden shadow-2xl mt-60">
+                  <div className="relative w-[240px] h-[480px] bg-black rounded-[45px] border-2 border-white overflow-hidden shadow-2xl mt-60">
                     {/* Camera Notch */}
-                    <div className="absolute top-0 w-full h-7 bg-black rounded-b-[40px] flex justify-center z-10">
-                      <div className="w-1/3 h-4 bg-white/30 rounded-b-[40px] shadow-md"></div>
+                    <div className="absolute top-0 w-full h-5 bg-black rounded-b-[30px] flex justify-center z-10">
+                      <div className="w-1/3 h-3 bg-white/30 rounded-b-[30px] shadow-md"></div>
                     </div>
 
                     {/* Image Section */}
                     <img 
                         src={experience.img} 
                         alt="Mobile Display"
-                        className="absolute inset-0 w-full h-full object-cover mt-3 p-0.5"
+                        className="absolute inset-0 w-full h-full object-cover mt-2 p-0.5"
                     />
 
                     {/* Glass Effect */}

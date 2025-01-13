@@ -15,6 +15,8 @@ export const personalData = {
   leetcode: "https://leetcode.com/u/harisbaig/",
   devUsername: "muhammad_harisbaig_1268d",
   resume: "https://drive.google.com/file/d/1swo6rMoSmYMqq8l4DSAZp02vGa2VHJxu/view?usp=sharing",
+  medium: "https://medium.com/@harisbaig100",
+  dev: "https://dev.to/muhammad_harisbaig_1268d",
   skills: [
       "React Native", 
       "Expo", 

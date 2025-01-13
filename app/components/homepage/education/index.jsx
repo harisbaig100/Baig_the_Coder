@@ -1,8 +1,8 @@
 // @flow strict
-import { educations } from "@/utils/data/educations";
+import { achievements } from "@/utils/data/achievements";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import lottieFile from '../../../assets/lottie/study.json';
+import lottieFile from '../../../assets/lottie/js.json';
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
@@ -22,28 +22,24 @@ function Education() {
         </div>
       </div>
 
-      <div className="flex justify-center my-5 lg:py-8">
-        <div className="flex  items-center">
+      <div className="flex justify-center items-center lg:py-6">
+        <div className="flex items-center gap-x-4">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md -translate-y-12">
+            Achievements
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <div className="w-80 h-80">
+            <AnimationLottie animationPath={lottieFile} />
+          </div>
         </div>
       </div>
 
-      <div className="py-8">
+      <div className="-translate-y-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-          <div className="flex justify-center items-start">
-            <div className="w-3/4 h-3/4">
-              <AnimationLottie animationPath={lottieFile} />
-            </div>
-          </div>
-
-          <div>
-            <div className="flex flex-col gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:col-span-2">
               {
-                educations.map(education => (
+                achievements.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
                     <div className="p-3 relative text-white">
                       <Image
@@ -74,7 +70,6 @@ function Education() {
                 ))
               }
             </div>
-          </div>
         </div>
       </div>
     </div>
