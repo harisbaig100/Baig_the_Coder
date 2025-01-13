@@ -25,8 +25,8 @@ function Education() {
       <div className="flex justify-center items-center lg:py-6">
         <div className="flex items-center gap-x-4">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md -translate-y-12">
-            Achievements
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md -translate-y-12 text-center">
+            Community Contributor <br />and<br /> Technical Writer  
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <div className="w-80 h-80">
