@@ -40,7 +40,7 @@ function Projects() {
               {projects.map((experience, index) => (
                 <div key={index} className="relative mx-auto">
                   {/* GlowCard - Now positioned above */}
-                  <div className="absolute -top-8 left-0 right-0 z-20">
+                  <div className="absolute left-0 right-0 z-20">
                     <GlowCard>
                       <div className="flex flex-col p-4">
                         <h3 className="text-xl font-semibold">{experience.title}</h3>
@@ -52,23 +52,26 @@ function Projects() {
                   </div>
 
                   {/* Mobile Frame */}
-                  <div className="relative w-[320px] h-[660px] bg-black rounded-[60px] border-8 border-black overflow-hidden shadow-2xl mt-60">
+                  <div className="relative w-[320px] h-[660px] bg-black rounded-[60px] border-2 border-white overflow-hidden shadow-2xl mt-60">
                     {/* Camera Notch */}
-                    <div className="absolute top-0 w-full h-14 bg-black rounded-b-[40px] flex justify-center">
-                      <div className="w-1/3 h-7 bg-gray-800 rounded-b-[40px]"></div>
+                    <div className="absolute top-0 w-full h-7 bg-black rounded-b-[40px] flex justify-center z-10">
+                      <div className="w-1/3 h-4 bg-white/30 rounded-b-[40px] shadow-md"></div>
                     </div>
 
-                    {/* Side Buttons */}
-                    <div className="absolute top-20 -left-3 w-1 h-12 bg-gray-800 rounded-lg"></div>
-                    <div className="absolute top-36 -left-3 w-1 h-12 bg-gray-800 rounded-lg"></div>
-                    <div className="absolute top-28 -right-3 w-1 h-16 bg-gray-800 rounded-lg"></div>
+                    {/* Image Section */}
+                    <img 
+                        src={experience.img} 
+                        alt="Mobile Display"
+                        className="absolute inset-0 w-full h-full object-cover mt-3 p-0.5"
+                    />
 
                     {/* Glass Effect */}
                     <div className="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-transparent pointer-events-none"></div>
 
                     {/* Bottom Bar */}
                     <div className="absolute bottom-2 left-1/2 -translate-x-1/2 w-1/3 h-1 bg-gray-700 rounded-full"></div>
-                  </div>
+                </div>
+                
                 </div>
               ))}
             </div>
