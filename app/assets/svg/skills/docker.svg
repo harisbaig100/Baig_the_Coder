@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#2496ED"/>
+    
+    <!-- Docker Container Ship -->
+    <g transform="translate(128 128)">
+        <!-- Boxes Representing Containers -->
+        <rect x="-60" y="-10" width="30" height="30" fill="#FFF"/>
+        <rect x="-30" y="-10" width="30" height="30" fill="#FFF"/>
+        <rect x="0" y="-10" width="30" height="30" fill="#FFF"/>
+        <rect x="30" y="-10" width="30" height="30" fill="#FFF"/>
+        
+        <!-- Ship Base -->
+        <rect x="-80" y="30" width="160" height="30" fill="#FFF"/>
+    </g>
+
+</svg>

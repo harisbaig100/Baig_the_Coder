@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#E535AB"/>
+    
+    <!-- Hexagon GraphQL Logo -->
+    <g transform="translate(128 128)">
+        <polygon points="0,-80 69.28,-40 69.28,40 0,80 -69.28,40 -69.28,-40" fill="none" stroke="#FFF" stroke-width="12"/>
+        <circle cx="0" cy="-80" r="10" fill="#FFF"/>
+        <circle cx="69.28" cy="-40" r="10" fill="#FFF"/>
+        <circle cx="69.28" cy="40" r="10" fill="#FFF"/>
+        <circle cx="0" cy="80" r="10" fill="#FFF"/>
+        <circle cx="-69.28" cy="40" r="10" fill="#FFF"/>
+        <circle cx="-69.28" cy="-40" r="10" fill="#FFF"/>
+    </g>
+
+</svg>

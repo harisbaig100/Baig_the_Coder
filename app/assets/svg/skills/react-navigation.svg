@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#5E60E7"/>
+    
+    <!-- Navigation Icon (Arrows in a Circular Shape) -->
+    <g transform="translate(128 128)">
+        <path d="M-60 0 L0 -60 L60 0 L0 60 Z" fill="none" stroke="#FFF" stroke-width="12"/>
+        <circle cx="0" cy="0" r="10" fill="#FFF"/>
+    </g>
+
+
+</svg>

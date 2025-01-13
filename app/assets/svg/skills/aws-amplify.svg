@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#FF9900"/>
+    
+    <!-- Amplify Triangle -->
+    <g transform="translate(128 128)">
+        <polygon points="0,-80 80,80 -80,80" fill="none" stroke="#000" stroke-width="12"/>
+        <line x1="-40" y1="40" x2="40" y2="40" stroke="#000" stroke-width="12"/>
+    </g>
+</svg>

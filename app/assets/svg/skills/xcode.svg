@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Square -->
+    <rect width="256" height="256" rx="50" fill="#1575F9"/>
+
+    <!-- Blueprint Style Lines -->
+    <g transform="translate(128 128)">
+        <!-- Xcode "A" -->
+        <path d="M-50 50 L0 -50 L50 50" fill="none" stroke="#FFF" stroke-width="12"/>
+        <line x1="-25" y1="0" x2="25" y2="0" stroke="#FFF" stroke-width="12"/>
+    </g>
+
+    <!-- Hammer Icon -->
+    <g transform="translate(128 128)">
+        <rect x="-10" y="-90" width="20" height="120" fill="#000"/>
+        <path d="M-40 -70 L0 -100 L40 -70 Z" fill="#000"/>
+    </g>
+</svg>

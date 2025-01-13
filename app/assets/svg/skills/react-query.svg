@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#FF4154"/>
+
+    <!-- Query Icon: Triangle Pattern -->
+    <g transform="translate(128 128)">
+        <!-- Top Triangle -->
+        <path d="M0 -60 L-50 40 L50 40 Z" fill="#FFF"/>
+        <!-- Bottom Left Triangle -->
+        <path d="M-60 0 L0 60 L-50 40 Z" fill="#FFF"/>
+        <!-- Bottom Right Triangle -->
+        <path d="M60 0 L0 60 L50 40 Z" fill="#FFF"/>
+    </g>
+
+</svg>

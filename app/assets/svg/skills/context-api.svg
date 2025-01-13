@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#61DAFB"/>
+
+    <!-- Context API Icon: Circle with Three Arcs -->
+    <g transform="translate(128 128)">
+        <circle cx="0" cy="0" r="60" fill="none" stroke="#000" stroke-width="12"/>
+        <path d="M-60 0 A60 60 0 0 1 60 0" fill="none" stroke="#000" stroke-width="12"/>
+        <path d="M0 -60 A60 60 0 0 1 0 60" fill="none" stroke="#000" stroke-width="12"/>
+    </g>
+
+</svg>

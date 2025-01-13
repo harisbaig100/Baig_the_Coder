@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#007FFF"/>
+
+    <!-- Material UI Logo -->
+    <path d="M56 80l40 24v24L56 104v-24zm40 24l40-24v48l-40 24v-48zm80 0l40 24-40 24-40-24 40-24z" fill="#FFF"/>
+    
+</svg>

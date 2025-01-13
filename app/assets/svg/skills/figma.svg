@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#F24E1E"/>
+    
+    <!-- Figma Circles Representation -->
+    <g transform="translate(128 128)">
+        <circle cx="0" cy="-50" r="40" fill="#E44D26"/>
+        <circle cx="0" cy="0" r="40" fill="#FF7262"/>
+        <circle cx="0" cy="50" r="40" fill="#A259FF"/>
+    </g>
+
+</svg>

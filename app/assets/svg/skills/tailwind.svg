@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#38B2AC"/>
+
+    <!-- Tailwind Waves -->
+    <path d="M64 128c14.2-20 28.4-28 42.6-24 10.4 2.8 18.5 11.8 25.4 21.3C147 141 161 148 176 144c14.2-4 28.4-16 40-36C200 124 176 160 128 160c-20 0-40-8-64-32z"
+        fill="#fff"/>
+</svg>

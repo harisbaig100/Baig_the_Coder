@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#F7B93E"/>
+
+    <!-- Prettier Symbol (Horizontal Code Lines) -->
+    <g transform="translate(128 128)">
+        <rect x="-60" y="-60" width="120" height="15" fill="#FFF"/>
+        <rect x="-60" y="-30" width="80" height="15" fill="#FFF"/>
+        <rect x="-60" y="0" width="100" height="15" fill="#FFF"/>
+        <rect x="-60" y="30" width="70" height="15" fill="#FFF"/>
+    </g>
+
+</svg>

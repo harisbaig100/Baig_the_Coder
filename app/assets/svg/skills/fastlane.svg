@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <!-- Background Circle -->
+    <circle cx="128" cy="128" r="128" fill="#FB8122"/>
+
+    <!-- Fastlane Arrow (Speed Representation) -->
+    <g transform="translate(128 128)">
+        <path d="M-60 0 L0 -60 L60 0 L0 60 Z" fill="none" stroke="#FFF" stroke-width="12"/>
+        <path d="M-30 0 L0 -30 L30 0 L0 30 Z" fill="none" stroke="#FFF" stroke-width="8"/>
+    </g>
+
+</svg>
