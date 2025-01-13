@@ -6,12 +6,13 @@
 
 ![](https://komarev.com/ghpvc/?username=harisbaig100&color=brightgreen)
 
-- 🔭 Focusing on FullStack (Frontend + Backend + DevOps).😎
-- 🌱 Trying to become an expert in Fullstack development ❤
-- 💻 I love exploring new tech stacks and building cool stuff.
-- 📰 Reading tech documentation whenever possible.
-- 🥅 2024 Goals: Learn Cloud on AWS and Azure.
-- ⚡ Fun fact: Equal is Not Always Equal in Javascript.🤣
+- 📱 Focusing on **React Native** for cross-platform mobile app development. 🚀  
+- 🌟 Passionate about crafting high-quality, scalable iOS and Android apps using **React Native**, **Swift**, and modern JavaScript frameworks. 📲  
+- 🎯 Exploring **React Native Open Source Contributions** and actively supporting the developer community. 💡  
+- 💻 Skilled in **ReactJS**, **Node.js**, and **.NET Core**, specializing in full-stack app development with REST & GraphQL APIs. 🌐  
+- 🛠️ Love transforming UI/UX designs into pixel-perfect, responsive mobile experiences. ✨  
+- 📚 Constantly learning new tools and technologies, with a focus on **Cloud Services (AWS, Azure)** for 2024. ☁️  
+- 🎉 Fun fact: **JavaScript** is single-threaded, but feels multi-threaded with **async/await**! 🤯  
 
 ---
 
