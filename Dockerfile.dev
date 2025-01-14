@@ -1,0 +1,26 @@
+# Use base image
+FROM node:20 AS base
+WORKDIR /app
+RUN npm i -g pnpm
+RUN npm i -g next
+
+# Copy package files and install dependencies
+COPY package*.json ./
+RUN pnpm install
+
+# Copy only source files (excluding node_modules)
+COPY . .
+
+# Use a separate production image
+FROM node:20-alpine3.19 as release
+WORKDIR /app
+RUN npm i -g pnpm
+
+# Only copy built files and necessary packages
+COPY --from=base /app/package.json ./
+COPY --from=base /app/pnpm-lock.yaml ./
+COPY --from=base /app/node_modules ./node_modules
+COPY --from=base /app/app ./app
+
+EXPOSE 3000
+CMD ["pnpm", "dev"]
