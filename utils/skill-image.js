@@ -85,6 +85,7 @@ export const skillsImage = (skill) => {
         case 'docker': return docker;
 
         // Database & Storage
+        case 'mongodb': return mongoDB;
         case 'postgresql': return postgresql;
         case 'sqlite': return sqlite;
         case 'asyncstorage': return asyncStorage;
