@@ -28,7 +28,6 @@ import fastlane from '../app/assets/svg/skills/fastlane.svg';
 import nativeModules from '../app/assets/svg/skills/native-modules.svg';
 import git from '../app/assets/svg/skills/git.svg';
 import docker from '../app/assets/svg/skills/docker.svg';
-import mongoDB from '../app/assets/svg/skills/mongodb.svg';
 import postgresql from '../app/assets/svg/skills/postgresql.svg';
 import sqlite from '../app/assets/svg/skills/sqlite.svg';
 import asyncStorage from '../app/assets/svg/skills/async-storage.svg';
@@ -86,7 +85,6 @@ export const skillsImage = (skill) => {
         case 'docker': return docker;
 
         // Database & Storage
-        case 'mongodb': return mongoDB;
         case 'postgresql': return postgresql;
         case 'sqlite': return sqlite;
         case 'asyncstorage': return asyncStorage;
