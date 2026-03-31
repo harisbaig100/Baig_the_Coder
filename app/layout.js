@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import "react-toastify/dist/ReactToastify.css";
 import { personalData } from "@/utils/data/personal-data";
 import Footer from "./components/footer";
@@ -8,7 +7,6 @@ import ToastProvider from "./components/helper/toast-provider";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://harisbaig.dev"),
@@ -64,7 +62,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="font-sans">
         <ToastProvider />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />
