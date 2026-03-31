@@ -1,9 +1,9 @@
-import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import "react-toastify/dist/ReactToastify.css";
 import { personalData } from "@/utils/data/personal-data";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
+import GtmProvider from "./components/helper/gtm-provider";
 import ToastProvider from "./components/helper/toast-provider";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+      <GtmProvider />
     </html>
   );
 }
