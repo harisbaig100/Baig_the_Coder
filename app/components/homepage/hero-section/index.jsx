@@ -32,6 +32,16 @@ function HeroSection() {
             <span className="text-[#16f2b3]">{personalData.designation2}</span>
           </h1>
 
+          <div className="mt-6">
+            <Link
+              href="https://calendar.app.google/UWTfMVAthSqEF7x79"
+              target="_blank"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-10 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:brightness-110 md:font-semibold"
+            >
+              Book a call
+            </Link>
+          </div>
+
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}

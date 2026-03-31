@@ -18,9 +18,20 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who I am?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.description}
-          </p>
+          <div className="text-gray-200 text-sm lg:text-lg space-y-4">
+            <p>
+              I’m a Senior React Native Engineer with 10+ years of experience building high-performance, scalable iOS and Android apps across healthcare, PropTech, fintech, IoT, and consumer platforms—shipping production-grade products used by millions.
+            </p>
+            <p>
+              My focus is reliability, performance, strong architecture, and great UX. I specialize in React Native, TypeScript, Swift/Kotlin (native iOS/Android), Expo/EAS, native modules, offline-first architecture, and mobile performance optimization.
+            </p>
+            <p>
+              I’m a React Native Core Contributor (Lean Core) and maintain libraries like react-native-segmented-control and react-native-clipboard, alongside open-source work and technical writing. My contributions have also been recognized in the GitHub Arctic Code Vault. Beyond development, I mentor engineers, lead mobile architecture decisions, and partner with cross-functional teams in fast-paced, distributed environments.
+            </p>
+            <p className="text-[#16f2b3] font-medium">
+              📌 Open to remote, hybrid, and relocation opportunities
+            </p>
+          </div>
 
           <div className="flex justify-center order-2 lg:order-2 mt-6">
             <Image

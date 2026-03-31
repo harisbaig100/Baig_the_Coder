@@ -33,6 +33,7 @@ import sqlite from '../app/assets/svg/skills/sqlite.svg';
 import asyncStorage from '../app/assets/svg/skills/async-storage.svg';
 import figma from '../app/assets/svg/skills/figma.svg';
 import storybook from '../app/assets/svg/skills/storybook.svg';
+import cicd from '../app/assets/svg/skills/cicd.svg';
 
 // Skills Mapping Function
 export const skillsImage = (skill) => {
@@ -41,15 +42,23 @@ export const skillsImage = (skill) => {
         // Core Technologies
         case 'reactnative': return reactNative;
         case 'react': return react;
+        case 'react.js': return react;
+        case 'reactjs': return react;
         case 'expo': return expo;
+        case 'expoeas(build/submit/update)': return expo;
+        case 'eas': return expo;
+        case 'otaupdates': return expo;
         case 'javascript': return javascript;
         case 'typescript': return typescript;
 
         // State Management
         case 'reduxtoolkit': return reduxToolkit;
+        case 'redux': return reduxToolkit;
         case 'contextapi': return contextApi;
         case 'zustand': return zustand;
         case 'reactquery': return reactQuery;
+        case 'apolloclient': return graphql;
+        case 'hooks': return react;
 
         // UI & Styling
         case 'styledcomponents': return styledComponents;
@@ -65,12 +74,21 @@ export const skillsImage = (skill) => {
         // Backend & API Integration
         case 'graphql': return graphql;
         case 'restfulapis': return restApis;
+        case 'restapis': return restApis;
+        case 'node.js': return docker;
+        case 'nodejs': return docker;
+        case 'express.js': return restApis;
+        case 'expressjs': return restApis;
         case 'firebase': return firebase;
         case 'awsamplify': return awsAmplify;
+        case 'authentication': return git;
 
         // Testing & Code Quality
         case 'jest': return jest;
         case 'reacttestinglibrary': return testingLibrary;
+        case 'reactnativetestinglibrary': return testingLibrary;
+        case 'detox': return testingLibrary;
+        case 'maestro': return testingLibrary;
         case 'eslint': return eslint;
         case 'prettier': return prettier;
 
@@ -79,13 +97,21 @@ export const skillsImage = (skill) => {
         case 'androidstudio': return androidStudio;
         case 'fastlane': return fastlane;
         case 'nativemodules': return nativeModules;
+        case 'ios/androidnativemodules': return nativeModules;
+        case 'swift': return xcode;
+        case 'kotlin': return androidStudio;
+        case 'cameraapis': return nativeModules;
+        case 'mediacapture': return nativeModules;
+        case 'ble': return nativeModules;
 
         // Deployment & Collaboration
         case 'git': return git;
+        case 'githubactions': return cicd;
+        case 'ci/cd': return cicd;
         case 'docker': return docker;
 
         // Database & Storage
-        case 'mongodb': return androidStudio;
+        case 'mongodb': return postgresql;
         case 'postgresql': return postgresql;
         case 'sqlite': return sqlite;
         case 'asyncstorage': return asyncStorage;
@@ -93,8 +119,21 @@ export const skillsImage = (skill) => {
         // Design & Collaboration Tools
         case 'figma': return figma;
         case 'storybook': return storybook;
+        case 'agiledevelopment': return git;
+        case 'productengineering': return git;
+        case 'codereviews': return git;
+        case 'multilingual&rtlsupport': return react;
+        case 'platform-specificuioptimization': return reactNative;
+        case 'optimization': return reactNative;
+        case 'startup&memorymanagement': return reactNative;
+        case 'offline-first': return asyncStorage;
+        case 'offline-first': return asyncStorage;
+        case 'designpatterns': return typescript;
+        case 'opensource&writing': return reactNative;
+        case 'reactnativecorecontributor': return reactNative;
+        case 'technicalwriting(medium|dev.to|hashnode)': return react;
 
         default:
-            return null; // Return null for non-existing skills
+            return null; // caller may apply fallback
     }
 };

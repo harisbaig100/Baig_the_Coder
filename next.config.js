@@ -21,6 +21,16 @@ module.exports = {
         hostname: 'media2.dev.to',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 'play-lh.googleusercontent.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.cio.com',
+        pathname: '**',
+      },
     ],
   },
 }

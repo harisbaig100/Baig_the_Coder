@@ -11,12 +11,61 @@ import ContactForm from './contact-form';
 function ContactSection() {
   return (
     <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white">
-      <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
-        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
-          CONTACT
-        </span>
-        <span className="h-36 w-[2px] bg-[#1a1443]"></span>
+      <div id="achievements" className="mb-10 max-w-6xl">
+        <div className="flex justify-center">
+          <div className="inline-flex items-center gap-3">
+            <span className="w-16 h-[2px] bg-[#1a1443]"></span>
+            <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+              Key Achievements
+            </span>
+            <span className="w-16 h-[2px] bg-[#1a1443]"></span>
+          </div>
+        </div>
+        <div className="mt-5 rounded-xl border border-[#464c6a] bg-[#0d1224] p-5">
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-200">
+            <li>
+              React Native Community Developer and{' '}
+              <Link
+                href="https://github.com/facebook/react-native/issues/23313"
+                target="_blank"
+                className="text-[#16f2b3] hover:underline"
+              >
+                React Native Lean Core
+              </Link>{' '}
+              project contributor.
+            </li>
+            <li>
+              Maintainer of{' '}
+              <Link
+                href="https://github.com/react-native-segmented-control/segmented-control"
+                target="_blank"
+                className="text-[#16f2b3] hover:underline"
+              >
+                react-native-segmented-control
+              </Link>{' '}
+              (643 stars) and{' '}
+              <Link
+                href="https://github.com/react-native-clipboard/clipboard"
+                target="_blank"
+                className="text-[#16f2b3] hover:underline"
+              >
+                react-native-clipboard
+              </Link>{' '}
+              (749 stars).
+            </li>
+            <li>
+              Arctic Code Vault Contributor delivering mobile apps used by millions across global platforms.
+            </li>
+            <li>
+              Mentored engineers, published technical articles, and led mobile architecture decisions across teams.
+            </li>
+            <li>
+              Actively shared up-to-date solutions through forks and custom React Native libraries for the community.
+            </li>
+          </ul>
+        </div>
       </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         <ContactForm />
         <div className="lg:w-3/4 ">
@@ -26,16 +75,28 @@ function ContactSection() {
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>{personalData.email}</span>
+              <a
+                href={`mailto:${personalData.email}`}
+                className="text-[#16f2b3] underline underline-offset-4 decoration-[#16f2b3]/60 hover:decoration-[#16f2b3]"
+                aria-label="Send email"
+              >
+                {personalData.email}
+              </a>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
               <IoMdCall
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>
+              <a
+                href="https://wa.me/923359661486"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#16f2b3] underline underline-offset-4 decoration-[#16f2b3]/60 hover:decoration-[#16f2b3]"
+                aria-label="Chat on WhatsApp"
+              >
                 {personalData.phone}
-              </span>
+              </a>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
               <CiLocationOn

@@ -60,6 +60,14 @@ function ContactForm() {
         <p className="text-sm text-[#d3d8e8]">{"If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests."}</p>
         <div className="mt-6 flex flex-col gap-4">
           <div className="flex flex-col gap-2">
+          <a
+            href="https://calendar.app.google/UWTfMVAthSqEF7x79"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full flex items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:brightness-110"
+          >
+            Book a call
+          </a>
             <label className="text-base">Your Name: </label>
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"

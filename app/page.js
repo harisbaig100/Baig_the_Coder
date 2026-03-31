@@ -7,18 +7,17 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
-export const dynamic = "force-dynamic";
-export const fetchCache = "force-no-store";
 
 async function getData() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
+  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`, {
+    next: { revalidate: 60 * 60 },
+  });
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
 
   const data = await res.json();
-  console.log(data)
 
   const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
   return filtered;

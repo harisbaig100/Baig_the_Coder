@@ -2,6 +2,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { personalData } from "@/utils/data/personal-data";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
@@ -10,9 +11,54 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of M.Haris Baig - Software Developer",
+  metadataBase: new URL("https://harisbaig.dev"),
+  title: {
+    default: "Haris Baig — Senior React Native Engineer",
+    template: "%s — Haris Baig",
+  },
   description:
-    "This is the portfolio of M.Haris Baig. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Senior React Native Engineer (10+ years) building scalable, high-performance iOS & Android apps used by millions. React Native Core Contributor focused on mobile architecture and performance.",
+  keywords: [
+    "Haris Baig",
+    "React Native",
+    "Senior React Native Engineer",
+    "Mobile Architecture",
+    "Performance Optimization",
+    "TypeScript",
+    "Swift",
+    "Kotlin",
+    "Expo",
+    "EAS",
+    "Offline-first",
+  ],
+  authors: [{ name: "Haris Baig" }],
+  creator: "Haris Baig",
+  openGraph: {
+    type: "website",
+    title: "Haris Baig — Senior React Native Engineer",
+    description:
+      "Senior React Native Engineer (10+ years) building scalable, high-performance iOS & Android apps used by millions. React Native Core Contributor focused on mobile architecture and performance.",
+    url: "/",
+    siteName: "Haris Baig",
+    images: [
+      {
+        url: "/profile.png",
+        width: 1200,
+        height: 630,
+        alt: "Haris Baig",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Haris Baig — Senior React Native Engineer",
+    description:
+      "Senior React Native Engineer (10+ years) building scalable, high-performance iOS & Android apps used by millions. React Native Core Contributor focused on mobile architecture and performance.",
+    images: ["/profile.png"],
+  },
+  icons: {
+    icon: "/profile.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -35,10 +35,10 @@ export const projects = [
     link: 'https://apps.apple.com/nl/app/zoofy-voor-de-vakman/id1457320237?l=en-GB',
   },
   {
-    id: 5,
+    id: 6,
     title: 'And Much More ...',
     description: `don't wanna clutter up much here, more detailed projects are outlined in my CV.`,
     img: 'https://www.cio.com/wp-content/uploads/2023/05/apps-mobile-100721214-orig-3.jpg?quality=50&strip=all',
-    link: 'https://drive.google.com/file/d/1swo6rMoSmYMqq8l4DSAZp02vGa2VHJxu/view',
+    link: 'https://drive.google.com/file/d/1vSK2ffEO9asg8EhtUkRnzDcE1pl0fMMC/view',
   },
 ];

@@ -1,57 +1,79 @@
 export const skillsData = [
-  // Core Technologies
-  'React Native',
-  'React',
-  'Expo',
-  'JavaScript',
-  'TypeScript',
-
-  // State Management
-  'Redux Toolkit',
-  'Context API',
-  'Zustand',
-  'React Query',
-
-  // UI & Styling
-  'Styled Components',
-  'Tailwind CSS',
-  'Material UI',
-  'Chakra UI',
-
-  // Navigation & Animations
-  'React Navigation',
-  'React Spring',
-  'React Native Reanimated',
-
-  // Backend & API Integration
-  'GraphQL',
-  'RESTful APIs',
-  'Firebase',
-  'AWS Amplify',
-
-  // Testing & Code Quality
-  'Jest',
-  'React Testing Library',
-  'ESLint',
-  'Prettier',
-
-  // Mobile Development Tools
-  'Xcode',
-  'Android Studio',
-  'Fastlane',
-  'Native Modules',
-
-  // Deployment & Collaboration
-  'Git',
-  'Docker',
-
-  // Database & Storage
-  'MongoDB',
-  'PostgreSQL',
-  'SQLite',
-  'Async Storage',
-
-  // Design & Collaboration Tools
-  'Figma',
-  'Storybook'
+  {
+    category: 'Mobile Stack',
+    items: [
+      'React Native',
+      'Expo',
+      'Expo EAS (Build/Submit/Update)',
+      'OTA Updates',
+      'React Navigation',
+    ],
+  },
+  {
+    category: 'Frontend & State',
+    items: [
+      'TypeScript',
+      'React.js',
+      'Hooks',
+      'Redux',
+      'Zustand',
+      'React Query',
+      'Apollo Client',
+    ],
+  },
+  {
+    category: 'Native Development',
+    items: [
+      'Swift',
+      'Kotlin',
+      'iOS/Android Native Modules',
+      'Camera APIs',
+      'Media Capture',
+      'BLE',
+    ],
+  },
+  {
+    category: 'Backend & APIs',
+    items: [
+      'GraphQL',
+      'REST APIs',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Authentication',
+    ],
+  },
+  {
+    category: 'Performance & Architecture',
+    items: [
+      'Optimization',
+      'Startup & memory management',
+      'Offline-first',
+      'Design patterns',
+    ],
+  },
+  {
+    category: 'Testing & CI/CD',
+    items: [
+      'Jest',
+      'React Native Testing Library',
+      'Detox',
+      'Maestro',
+      'Fastlane',
+      'GitHub Actions',
+      'EAS',
+    ],
+  },
+  {
+    category: 'Collaboration & Delivery',
+    items: ['Agile Development', 'Product Engineering', 'Code Reviews'],
+  },
+  {
+    category: 'Accessibility & UX',
+    items: ['Multilingual & RTL Support', 'Platform-Specific UI Optimization'],
+  },
+  {
+    category: 'Open Source & Writing',
+    items: ['React Native Core Contributor', 'Technical writing'],
+  },
 ];

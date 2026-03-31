@@ -61,10 +61,13 @@ function Projects() {
                       </div>
 
                       {/* Image Section */}
-                      <img 
-                          src={experience.img} 
-                          alt="Mobile Display"
-                          className="absolute inset-0 w-full h-full object-cover mt-2 p-0.5"
+                      <Image
+                        src={experience.img}
+                        alt={`${experience.title} preview`}
+                        fill
+                        sizes="240px"
+                        className="object-cover mt-2 p-0.5"
+                        priority={index < 3}
                       />
 
                       {/* Glass Effect */}
