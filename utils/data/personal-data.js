@@ -14,7 +14,7 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/5392687/muhammad-haris-baig',
   leetcode: "https://leetcode.com/u/harisbaig/",
   devUsername: "muhammad_harisbaig_1268d",
-  resume: "https://drive.google.com/file/d/1vSK2ffEO9asg8EhtUkRnzDcE1pl0fMMC/view",
+  resume: "https://drive.google.com/file/d/1Y7h0X5RyDt0fxcahvBQi8CsisSArBVQq/view?usp=sharing",
   medium: "https://medium.com/@harisbaig100",
   dev: "https://dev.to/muhammad_harisbaig_1268d",
   skills: [
